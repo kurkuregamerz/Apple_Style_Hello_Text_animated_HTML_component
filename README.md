@@ -10,6 +10,7 @@ I made the whole thing from scratch.
 ## Process
 
 * I first created a vector in Adobe illustrator using the pen tool then exported it as a svg.<br>
+<img src="Screenshot 2026-10-14 163859.png">
 * Then I took that svg and edited it in HTML, CSS and JS.
 
 ## Features
