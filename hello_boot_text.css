@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#path_svg{
+    width: 20em;
+    height: auto;
+}
+#hello_path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width:12;
+    stroke-linecap:round;
+    stroke-linejoin: round;
+}
