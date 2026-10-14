@@ -27,7 +27,16 @@ I made the whole thing from scratch.
 ### For changing the color
 
 1. Go to the .css file.
-2. Change stroke color to your wanted color.
+2. Change stroke to your wanted color.
+```css 
+#hello_path{
+    fill: none;
+    stroke: #ffffff;
+    stroke-width:12;
+    stroke-linecap:round;
+    stroke-linejoin: round;
+} 
+```
 
 ### Increasing or decreasing animation speed 
 
