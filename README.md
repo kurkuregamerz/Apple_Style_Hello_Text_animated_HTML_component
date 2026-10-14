@@ -23,7 +23,7 @@ I made the whole thing from scratch.
 2. Copy the svg code from the downloaded html file.
 3. Link the script and css.
 
-## Coustomizing
+## Customizing
 
 ### For changing the color
 
@@ -33,6 +33,29 @@ I made the whole thing from scratch.
 #hello_path{
     fill: none;
     stroke: #ffffff;
+    stroke-width:12;
+    stroke-linecap:round;
+    stroke-linejoin: round;
+} 
+```
+### For applying gradient as the stroke
+1. Go to the .html file.
+2. Add this 
+```HTML
+<linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="lightgreen" />
+      
+      <stop offset="50%" stop-color="orange" />
+      <stop offset="100%" stop-color="pink" />
+    </linearGradient>
+```
+Here for every color you want in the gradient add one stop and set the offset accordingly.
+
+3. Change stroke to url(#myGradient).
+```css 
+#hello_path{
+    fill: none;
+    stroke: url(#myGradient);
     stroke-width:12;
     stroke-linecap:round;
     stroke-linejoin: round;
@@ -48,3 +71,5 @@ I made the whole thing from scratch.
 
  path.style.transition = 'stroke-dashoffset 3.5s ease-in-out'
 ```
+
+
