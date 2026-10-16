@@ -1,6 +1,6 @@
 # APPLE Style Hello TEXT animated HTML UI component
 
-I made the iconic hello welcoming screen of apple devices in HTMl, CSS and JS.<br>
+I made the iconic hello welcoming screen of apple devices in HTMl, CSS and JS!<br>
 I made the whole thing from scratch.
 
 ### Here is a demo GIF>>
